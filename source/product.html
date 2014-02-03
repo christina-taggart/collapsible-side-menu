@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- 
+  <!--
     normalize.css removes cross-browser differences in defaults, e.g.,
     differences in how form elements appear between Firefox and IE
     See: http://necolas.github.com/normalize.css/
@@ -10,23 +10,38 @@
 
   <!-- Put your challenge-specific CSS in here -->
   <link rel="stylesheet" href="main.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="style.js"></script>
+
+
+
   <title></title>
 </head>
 <body>
+
+  <!--menu -->
+   <nav class="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Tour</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <br clear="all">
+    </nav>
+
+
+    <!-- content -->
   <div class="container">
+  <div class="nav-toggle">
+    <button class="nav-button" type = "button" >Open Sesame</button>
+  </div>
+
     <header>
       <h1>My Super SaaS</h1>
     </header>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Tour</a></li>   
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <br clear="all">
-    </nav>
+
     <div class="content">
       <h2>You are so totally going to love this application.</h2>
       <div id="registration">
