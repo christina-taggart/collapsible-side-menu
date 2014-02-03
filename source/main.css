@@ -4,9 +4,55 @@
     will how you center it inside its parent container.
 
     See: http://bluerobot.com/web/css/center1.html
-    
+
     Don't change the container width.
   */
-  margin: 0 auto;  
+  margin: 0 auto;
   width: 720px;
+}
+.container {
+  /*
+    If you have a block-level element of a certain width, margin: 0 auto;
+    will how you center it inside its parent container.
+
+    See: http://bluerobot.com/web/css/center1.html
+
+    Don't change the container width.
+  */
+  margin: 0 auto;
+  width: 720px;
+  margin-left: 170px;
+}
+
+.toggle{
+  color: red;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right:0px;
+  width: 150px;
+  background-color: #d1d1d1;
+  padding-left: 5px;
+}
+
+nav ul {
+  list-style: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right:0px;
+  width:150px;
+  background-color: #d1d1d1;
+  height: 100%;
+  padding-left: 5px;
+}
+
+nav li {
+  padding: 5px 0px 8px 10px;
+  border-bottom: 1px solid gray;
+}
+
+nav a {
+  text-decoration: none;
+  color : #3D3D3D;
 }
