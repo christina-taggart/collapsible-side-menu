@@ -1,15 +1,4 @@
-.container {
-  /*
-    If you have a block-level element of a certain width, margin: 0 auto;
-    will how you center it inside its parent container.
 
-    See: http://bluerobot.com/web/css/center1.html
-
-    Don't change the container width.
-  */
-  margin: 0 auto;
-  width: 720px;
-}
 .container {
   /*
     If you have a block-level element of a certain width, margin: 0 auto;
@@ -25,19 +14,30 @@
 }
 
 .toggle{
-  color: red;
   position: fixed;
   top: 0px;
   left: 0px;
   right:0px;
-  width: 150px;
-  padding-left: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  color: #ccc;
+  background-color: #555;
+  background: -webkit-linear-gradient(#888, #555);
+  background: linear-gradient(#888, #555);
+  border: 0 none;
+  border-radius: 3px;
+  text-shadow: 0 -1px 0 #000;
+  box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+  cursor: pointer;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
 }
 
 nav ul {
   list-style: none;
   position: fixed;
-  top: 15px;
+  top: 40px;
   left: 0px;
   right:0px;
   width:150px;
