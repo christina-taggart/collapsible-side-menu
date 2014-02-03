@@ -1,6 +1,6 @@
 $( document ).ready(function() {
   $(".toggle").click(function() {
-    $( "nav ul" ).slideToggle("slow")
+    $( "nav ul" ).fadeToggle("slow")
     $(this).html($(this).html() == 'Open Sesame' ? 'Close Sesame' : 'Open Sesame');
   });
 });
