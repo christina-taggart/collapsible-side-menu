@@ -11,7 +11,7 @@
   width: 720px;
 }
 
-#toggle {
+#show_sidebar {
   position: fixed;
   top: 0;
   left: 0;
@@ -21,7 +21,23 @@
   padding: 8px 0 0 16px;
 }
 
-#toggle a {
+#show_sidebar a {
+  text-decoration: none;
+  color: #444444;
+}
+
+#hide_sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #DDDDDD;
+  width: 134px;
+  height: 35px;
+  padding: 8px 0 0 16px;
+  display: none;
+}
+
+#hide_sidebar a {
   text-decoration: none;
   color: #444444;
 }
@@ -33,6 +49,7 @@ nav {
   left: 0;
   height: 100%;
   background-color: #DDDDDD;
+  display: none;
 }
 
 nav a {
