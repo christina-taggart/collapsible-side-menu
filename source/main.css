@@ -13,7 +13,7 @@ nav {
   background-color: #B5B2B8;
   position: fixed;
   height: 100%;
-  visibility: hidden
+  left: -80px;
 }
 
 #menu-showing {
