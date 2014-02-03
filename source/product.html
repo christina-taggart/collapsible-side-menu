@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- 
+  <!--
     normalize.css removes cross-browser differences in defaults, e.g.,
     differences in how form elements appear between Firefox and IE
     See: http://necolas.github.com/normalize.css/
@@ -15,12 +15,15 @@
 <body>
   <div class="container">
     <header>
+      <button class="nav_button" type = "button" >Open Sesame</button>
+
       <h1>My Super SaaS</h1>
+
     </header>
-    <nav>
+    <nav class="nav">
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Tour</a></li>   
+        <li><a href="#">Tour</a></li>
         <li><a href="#">Pricing</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
@@ -28,6 +31,7 @@
       <br clear="all">
     </nav>
     <div class="content">
+
       <h2>You are so totally going to love this application.</h2>
       <div id="registration">
         <form name="sign_up" action="#" method="post">
@@ -116,5 +120,8 @@
       Copyright &copy; 2013 Awesome People, Inc.
     </div>
   </div>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js.js"></script>
 </body>
 </html>
