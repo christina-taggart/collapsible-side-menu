@@ -6,9 +6,27 @@
 // $('#hide_sidebar').css('display', 'none');
 // $('#show_sidebar').css('display', 'block')});
 
+// $('#show_sidebar a').hover(
+//   function() {
+//     $('nav').css('display', 'block');
+//   },
+//   function() {
+//     $('nav').css('display', 'block');
+//   }
+// );
+
+// $('nav').hover(
+//   function() {
+//     $('nav').css('display', 'block');
+//   },
+//   function() {
+//     $('nav').css('display', 'none');
+//   }
+// );
+
 $('#show_sidebar a').hover(
   function() {
-    $('nav').css('display', 'block');
+    $('nav').slideDown();
   },
   function() {
     $('nav').css('display', 'block');
@@ -20,6 +38,6 @@ $('nav').hover(
     $('nav').css('display', 'block');
   },
   function() {
-    $('nav').css('display', 'none');
+    $('nav').slideUp();
   }
 );
