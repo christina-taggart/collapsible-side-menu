@@ -22,7 +22,6 @@ nav {
   left: 0;
   z-index: 0;
   padding-top: 20px;
-  /*display: none;*/
 }
 
 #unique {
@@ -30,7 +29,17 @@ nav {
   top: 0;
   left: 0;
   z-index: 1;
-  margin: 5px 0 0 40px;
+  margin: 5px 14px;
+}
+
+#hidelink {
+  color: red;
+  font-size: .8em;
+  padding: 3px 3px;
+  background: #eeeeee;
+  border: 1px solid black;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 ul {
