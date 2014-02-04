@@ -5,14 +5,15 @@
   left: 200px;
 }
 
-
 nav {
   position: fixed;
   float: left;
   top: 0;
   width: 150px;
+  min-width: 15px;
+  overflow: hidden;
   height: 1000px;
-  left: 0;
+  left: -100px;
   background-color: gray;
   border-right: 3px solid #383838;
 }

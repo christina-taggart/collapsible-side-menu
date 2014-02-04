@@ -1,1 +1,12 @@
-$("nav").hover(function() {$( this ).hide(1000);},function() {$( this ).show(1000);});
+
+  $('nav').on("mouseenter",
+    function () {
+      $(this).animate({left: "+=100"}, 600)
+    }
+  )
+
+  $('nav').on("mouseleave",
+    function () {
+      $(this).animate({left: "-=100"}, 600)
+    }
+  )
