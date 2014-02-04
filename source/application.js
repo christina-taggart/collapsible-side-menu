@@ -1,7 +1,22 @@
 $(function() {
-    $( "#show").click(function() {
-      $("nav").toggle();
-    });
+  $( "#show" ).click(function() {
+    $( "nav" ).toggle();
+  });
+});
+
+
+$(function() {
+  $( "#show").click(function() {
+    $("nav").toggle(
+      $( "nav" ).animate({
+          width: "20px"
+
+        }, 5000, function() {
+          $("ul").hide();
+
+        })
+      );
+  });
 });
 
 
@@ -13,3 +28,14 @@ $(function() {
          $(this).text("Open Sesame");
   });
 });
+
+
+
+
+
+
+
+
+
+
+
