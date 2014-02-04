@@ -10,3 +10,52 @@
   margin: 0 auto;  
   width: 720px;
 }
+
+nav {
+  width: 148px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  background-color: #ccc;
+  border-right: 2px solid gray;
+}
+
+nav > ul {
+  margin: 0px;
+  padding: 0px;
+  margin-top:20px;
+}
+
+nav > ul > li {
+  list-style: none;
+  border-bottom: 1px solid silver;
+  padding: 8px 0px;
+  padding-left: 8px;
+}
+
+nav > ul > li:hover {
+  background-color: #ddd;
+}
+
+nav > ul > li > a {
+  color: black;
+}
+
+nav > ul > li > a:hover {
+  color: gray;
+}
+
+body {
+  padding-left: 150px;
+  margin-left: 10px;
+}
+
+#nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+  background-color: #ddd;
+  width: 150px;
+}
