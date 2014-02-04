@@ -1,8 +1,11 @@
 $( document ).ready(function() {
-  $(".toggle").click(function() {
-    $( "nav ul" ).fadeToggle("slow")
-    $(this).html($(this).html() == 'Open Sesame' ? 'Close Sesame' : 'Open Sesame');
+  $("nav").hover(function() {
+    $( "nav" ).animate({
+        width: "120px",
+        height: "300px"}
+    )(".hidden-ul").css("display", "block")
   });
 });
+
 
 
